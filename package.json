@@ -1,0 +1,11 @@
+{
+  "name": "bun-add-bun-promptx",
+  "module": "bun install @inquirer/prompts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
