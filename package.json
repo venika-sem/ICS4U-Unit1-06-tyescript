@@ -1,11 +1,24 @@
 {
-  "name": "bun-add-bun-promptx",
-  "module": "bun install @inquirer/prompts",
+  "name": "ics4u-unit1-06-tyescript",
+  "module": "index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prompt-sync": "^4.2.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.5",
+    "bun-promptx": "^0.2.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
